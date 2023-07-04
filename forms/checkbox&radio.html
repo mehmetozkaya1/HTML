@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckBox</title>
+</head>
+<body>
+    <p>Checkbox'ların name kısmı farklı olmak zorundadır. Radiobuttonların ise aynı olmak zorundadır sadece biri seçilebildiği için</p>
+    <br>
+    <p>Eğer checkbox işaretlenirse name'i bulten olan checkboxın değeri value'e verilen değer olur. Eğer seçilmezse bir değer gitmez</p>
+    <h1>CheckBox</h1>
+    <form name="onay">
+        <input type="checkbox" name="bulten" value="1"> Bültene Abone Ol
+        <br>
+        <br>
+        <input type="checkbox" name="evli" value="1">Evliyim
+        <br>
+        <br>
+        <input type="submit" value="Gönder">
+    </form>
+    <h1>Radio Button</h1>
+    <form name="radio">
+        <input type="radio" name="takim" value="1">Galatasaray
+        <br>
+        <input type="radio" name="takim" value="2">Fenerbahçe
+        <br>
+        <input type="radio" name="takim" value="3">Beşiktaş
+        <br>
+        <p>checked ekleyerek seçili gelebilir</p>
+        <br>
+        <input type="radio" name="takim" value="4" checked>
+        <br>
+        <input type="submit" name="btn" id="" value="Gönder">
+    </form>
+</body>
+</html>

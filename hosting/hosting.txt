@@ -1,0 +1,24 @@
+hosting işlemi için internet siteleri üzerinden
+ücretsiz hosting işlemi sağlayan siteleri bulabiliriz.
+İstediğimiz bir siteyi bulduktan sonra FTP
+(file transfer protocol) portunu ve bilgilerini kullanarak
+FileZilla uygulaması ile hosting işlemimizi yapacağız.
+
+FileZilla'da sol üstte site yöneticisi var
+yeni siteye basıyoruz.
+bir isim veriyoruz ve oluşturuyoruz.
+yan tarafta istenilen bilgileri giriyoruz.
+hosting aldığımız siteden aldığımız bilgileri giriyoruz.
+
+Sunucuya FTP host name'i yapıştırıyoruz.
+Kapı(port) numarası FTP port numarası 21 dir.
+Kullanıcı adı ve parolayı da giriyoruz. Boşluklara dikkat edelim.
+Bağlantı Kura bastıktan sonra bağlantımızı gerçekleştiriyoruz.
+
+Sağ taraftaki dosyalar sitenin dosyalarıdır. htdocs içerisine
+yayınlamak istediğimiz html sayfaları ve kaynak resim videoları
+göndereceğiz. Sol taraf bizim bilgisayarımızdır.
+
+Dosyalarımızı seçtiken sonra sağ tıklayıp yükle diyoruz.
+
+Ardından hosting işlemimiz gerçekleşiyor.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ortak Özellikler</title>
+</head>
+<body>
+    <p>
+        size: Form elemanının genişliği <br>
+        value: Form elemanının değeridir <br>
+        placeholder: Form elemanının açıklamasıdır. <br>
+        name: Form elemanının benzersiz adıdır. <br>
+        id: Form elemanının tanım kodudur. CSS veya JS için kullanılır. <br>
+        autofocus: sayfa açıldığında fare imlecinin form elemanını aktif etmesini sağlar. <br>
+        autocomplete: form elemanlarının daha önce girilen verilere göre otomatik tamamlanmasını sağlar. <br>
+        maxlenght: forma girilebilecek maks karakter uzunluğudur. <br>
+        required: form elemanına mutlaka değer girilmesini belirtir. <br>
+        disabled: Aktif olmayan bir form elemanı değeridir. <br>
+        autocapitalize: Otomatik olarak verilen verileri büyük harfle başlatır. <br>
+        placeholder ile value farkı value değer olarak giderken placeholder sadece ipucudur. <br>
+    </p>
+
+    <br>
+    <br>
+    <br>
+
+    <form autocomplete="on" action="">
+        Ad Soyad: <input type="text" name="adsoyad" id="adsoyad" size="15" maxlength="50" required autofocus placeholder="Ad Soyad">
+        email: <input type="email" disabled>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo</title>
+</head>
+<body>
+    <p>Satır ve sütunlardan oluşurlar. Satır ve sütunların kesiştiği yerde hücre denen kutucuklar bulunur.</p>
+    <br>
+    <p>table etiketi içerisine tr (table row) etiketi kullanılır. td (table data) ile de hücre oluşturulur.</p>
+
+    <h1>Tablomuz</h1>
+    <table border="2">
+        <tr><td>Ad Soyad:</td><td>Mehmet Özkaya</td></tr>
+        <tr><td>Doğum Yeri</td><td>Ankara</td></tr>
+        <tr><td>Kaç yaşında</td><td>20</td></tr>
+    </table>
+
+    <h1>Biçimlendirilmiş Table</h1>
+    <table border="8">
+        <caption>Tablo Başlığı</caption>
+        <thead>
+            <tr><th><b>Ülke</b></th><th><b>Nüfus</b></th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Türkiye</td><td>80 milyon</td></tr>
+            <tr><td>Almanya</td><td>75 milyon</td></tr>
+            <tr><td>Yunanistan</td><td>30 milyon</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td>Toplam nüfus</td><td>185 milyon</td></tr>
+        </tfoot>
+    </table>
+    <br>
+    <h1>Birleştirilmiş Table</h1>
+    <table border="5">
+        <caption>Tablo Başlığı</caption>
+        <thead>
+            <tr><th colspan="2"><b>Ülke</b></th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Türkiye</td><td>80 milyon</td></tr>
+            <tr><td>Almanya</td><td>75 milyon</td></tr>
+            <tr><td>Yunanistan</td><td>30 milyon</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="2">Toplam nüfus 185 milyon</td></tr>
+        </tfoot>
+    </table>
+    <br>
+    <h1>Geniş Table</h1>
+    <table border="5" style="width:100%">
+        <caption>Tablo Başlığı</caption>
+        <thead>
+            <tr><th colspan="2"><b>Ülke</b></th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Türkiye</td><td>80 milyon</td></tr>
+            <tr><td>Almanya</td><td>75 milyon</td></tr>
+            <tr><td>Yunanistan</td><td>30 milyon</td></tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><center>Toplam nüfus 185 milyon</center></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
